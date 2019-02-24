@@ -33,8 +33,8 @@
     },
     "fileheader.customMade": {
         "Description":"About practicing python exercises",
-        "Author":"shenhongwen",
-        "LastEditors":"shenhongwen",// 文件最后编辑者
+        "Author":"Shenhongwen",
+        "LastEditors":"Shenhongwen",// 文件最后编辑者
         "Date": "Do not edit", // 文件创建时间(不变)
         "LastEditTime": "Do not edit" // 文件最后编辑时间
       }
