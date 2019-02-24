@@ -1,0 +1,42 @@
+{
+    "python.linting.mypyEnabled": false,
+    "python.linting.pylintEnabled": false,
+    "python.linting.enabled": true,
+    "python.pythonPath": "F:\\Program Files\\Python\\python.exe",
+    "python.linting.flake8Enabled": true,
+    //文件头设置
+    "fileheader.configObj": {
+        "createFileTime": true,
+        "timeNoDetail": false,
+        "language": {
+            "languagetest": {
+                "head": "/$$",
+                "middle": " $ @",
+                "end": " $/"
+            }
+        },
+        "autoAdd": false,
+        "autoAlready": true,
+        "annotationStr": {
+            "head": "/*",
+            "middle": " * @",
+            "end": " */",
+            "use": false
+        },
+        "headInsertLine": {
+            "php": 2
+        },
+        "beforeAnnotation": {
+            "py": "#!/usr/bin/env python\n# coding=UTF-8"
+        },
+        "specialOptions": {}
+    },
+    "fileheader.customMade": {
+        "Description":"About practicing python exercises",
+        "Author":"shenhongwen",
+        "LastEditors":"shenhongwen",// 文件最后编辑者
+        "Date": "Do not edit", // 文件创建时间(不变)
+        "LastEditTime": "Do not edit" // 文件最后编辑时间
+      }
+      // 不填写对应属性即关闭对应功能
+}
