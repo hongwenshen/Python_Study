@@ -5,13 +5,21 @@
 @Author: Shenhongwen
 @LastEditors: Shenhongwen
 @Date: 2019-02-25 21:34:07
-@LastEditTime: 2019-02-25 21:38:45
+@LastEditTime: 2019-02-25 21:55:31
 '''
 
 
 def rabbit():
+    Msg = "Well done"
     f1 = 1
     f2 = 1
     for i in range(1, 22):
-        print('%12ld %12ld' % (f1, f2))
-        if
+        print('{0:12d} {1:12d}'.format(f1, f2), end='\t')
+        if (i % 3) == 0:
+            print('') 
+        f1 = f1 + f2
+        f2 = f1 + f2
+    return Msg
+
+
+print(rabbit())
