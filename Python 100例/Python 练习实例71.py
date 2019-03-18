@@ -5,7 +5,7 @@
 @Author: Shenhongwen
 @LastEditors: Shenhongwen
 @Date: 2019-03-18 20:42:04
-@LastEditTime: 2019-03-18 20:57:32
+@LastEditTime: 2019-03-18 21:35:48
 '''
 '''
 题目：编写input()和output()函数输入，输出5个学生的数据记录。
